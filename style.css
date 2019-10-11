@@ -1,0 +1,184 @@
+body {
+    background-color: #43929F;
+}
+/* .container{
+    background: linear-gradient(to left, #ffb3b3, #ffe6e6);
+    width: 100%;
+} */
+
+h1{ 
+    color: white;
+    text-align: center;
+    font-family: Abril+Fatface, serif;
+}
+
+nav, header, footer {
+    display: block;
+}
+nav{
+    width:100%;
+    margin: 0;
+    background-color: white;
+}
+nav ul{
+    background-color: rgb(219, 217, 206);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+ul.topnav {
+    display:block;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+}
+
+ul.topnav li {
+    float: left;
+    list-style: none;
+}
+ul.topnav li a:hover {
+background-color: pink;
+}
+
+ul.topnav li.topnav-right{
+    float:right;
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-transform: uppercase;
+} 
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+/* Footer */
+
+footer.footerOne {
+    background-color: #777777;
+    line-height: 10px;
+    margin: 0;
+    width: 100%;
+    
+}
+
+footer.footerOne ul {
+list-style: none;
+text-align: left;
+padding: 0;
+}
+
+
+
+/*    Mobile      */
+
+@media screen and (max-width: 680px)
+{
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+
+    ul.topnav li.dropdownIcon
+    {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.topnave.responsive li a {
+        display: block; 
+        text-align: left;
+    }
+
+}
+
+
+
+h2{
+    color: white;
+    font-family: Courgette;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    margin: auto;
+}
+
+img { 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.row{
+    display: flex;
+    width: 100%
+}
+
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+[class*="col-"]{
+    border: 2px;
+    padding: 5px;
+    float: left;
+}
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.leggingImg{
+    width: 200px;
+    height: 200px;
+    border: 2px solid pink;
+    padding: 2px
+}
+
+.borderImg {
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+}
+
+
+

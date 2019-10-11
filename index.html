@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?
+        family=Abril+Fatface|Courgette
+        |Cuprum&display=swap" rel="stylesheet">
+        <title>Noobs Sportware - For everyone workout needs!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- <div class="container">
+            <h1>Welcome, noobs!</h1>
+        </div> -->
+            
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li> <a href="home">Home</a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="faq">FAQ</a></li>
+                <li class="topnav-right"><a href="signup">Sign Up</a></li>
+                <li class="topnav-right"><a href="cart">Cart</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>   
+        </nav>   
+
+        <script>
+            function dropdownMenu()
+            {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav")
+                {
+                    x.className += " responsive";
+                    /*Change topnav to topnav responsive*/
+                }    
+                else
+                {
+                    x.className = "topnav";
+                }
+                
+            }
+        </script>
+        
+        <hr>
+        <p>Noobs Sportware provides everything you need for your workout 
+            (pst. and its <i>cheap</i>)!</p>
+        <table>
+            <tr>
+                <td><button>Legging</button></td>
+                <td><button>Sportbra</button></td>
+                <td><button>T-shirt and Croptop</button></td>
+                <td><button>Others</button></td>
+            </tr>
+        </table>
+
+        <h2>Best Seller</h2>
+        <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="legging.jpg" class="leggingImg">
+                    </div>
+                    <div class="col-4">
+                        <img src="legging.jpg" class="leggingImg">
+                    </div>
+                    <div class="col-4">
+                        <img src="legging.jpg" class="leggingImg">
+                    </div>
+            </div>
+            
+            <div class="row">    
+                <div class="col-4">
+                    <img src="legging.jpg" class="leggingImg">
+                </div>
+                <div class="col-4">
+                    <img src="legging.jpg" class="leggingImg">
+                </div>
+                <div class="col-4">
+                    <img src="legging.jpg" class="leggingImg">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h2>Our Team</h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="IMG_6078.JPG" class="borderImg"> 
+            </div>
+            <div class="col-6">
+                    <img src="IMG_6178.JPG" class="borderImg">
+            </div>
+        </div>
+      
+        <hr>
+        <h2>Don't Missed Out!</h2>
+        <h3>Subscribe now!</h3>
+        <form>
+            email: <br>
+            <input type="text"><br><br>
+            <button>submit</button>
+        </form>
+        <footer class="footerOne">
+            <div class="row">
+                <div class="col-3">
+                    <h1>ABOUT US</h1>
+                    <p>Noobs Sportware "Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi 
+                        ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor.
+                    </p>
+                </div>    
+                <div class="col-3">
+                    <h1>HELP</h1>
+                    <ul>
+                        <li>Size Guides</li>
+                        <li>Delivery and Return</li>
+                        <li>Orders</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+
+                </div>
+            </div>
+
+        </footer>
+    </body>
+</html>
